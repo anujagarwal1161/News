@@ -1,0 +1,253 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/*navigation properties*/
+.container
+{
+    background-color:darkslategrey;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.edit
+{
+width:70px;
+height:70px;
+background-color:goldenrod;
+margin:10px 10px;
+}
+.container .navigation ul 
+{
+    display:flex;
+    align-items: center;
+    padding:1rem;
+    list-style:none;
+}
+.container .navigation ul .ed
+{
+    background-color:orchid;
+    padding:10px 10px;
+}
+ul li{
+    margin:0.5rem;
+}
+ul li a
+{
+    text-decoration: none;
+    color:#000;
+    width:40px;
+    height:40px;
+    font-weight: bold;
+}
+ul li a:hover
+{
+    background-color:red;
+    padding:10px 10px;
+}
+/* Newsroom coding */
+.newsroom
+{
+    background: url('/images/image1.jpg') no-repeat center center/cover;
+    position:absolute;
+    width:100%;
+    height:50vh;
+}
+.newsroom
+{
+    padding:30px 20px;
+    display:grid;
+    grid-template-columns: repeat(1,auto);
+}
+.details h2,ul,li
+{
+    font-weight: bold;
+}
+/* showcase area */
+.contain
+{
+    margin-top:400px;
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap:1.5rem;
+    grid-column: 1 / span 2;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-bottom: 200px;
+    border:3px solid #333;
+}
+.contain .showcase .back
+{
+    background-color:#333;
+    padding:20px 20px;
+    height:100%;
+    color:#fff;
+    text-decoration:none;
+    align-items: center;
+}
+.contain .showcase .sp
+{
+    color:#000;
+    text-decoration: none;
+}
+.contain .py
+{
+    padding:20px 20px;
+}
+.contain .showcase .bg
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px 10px;
+    line-height:1.75rem;
+    font-weight:600;
+}
+.contain .showcase
+{
+  padding:20px 20px;
+  border:3px solid #333;
+}
+.contain .showcase img
+{
+    width:300px;
+    height:200px;
+}
+/* footer */
+.contains
+{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    background:#000;
+    padding-bottom:50px;
+    
+}
+.contains .foot #copyright 
+{
+background:#444;
+grid-column: 1 / span 4;
+width:100vh;
+padding:0.5rem;
+text-align:center;
+font-size:0.75rem;
+}
+.contains .foot
+{
+    color:#fff;
+}
+.contains .foot .top
+{
+    width:100vh;
+    margin-top:50px;
+    padding-top:20px;
+}
+.contains .foot .emails
+{
+    padding:20px 20px;
+}
+.contains .foot #email
+{
+    margin-bottom: 20px;
+}
+.contains .foot .butt
+{
+    background-color:darkgreen;
+    color:#000;
+    padding:10px 10px;
+    font-weight:bold;
+}
+.contains .foot .edi
+{
+    color:#fff;
+}
+.contains .foot form
+{
+    padding-left: 20px;
+}
+/* about page coding */
+.about-container
+{
+    display:grid;
+    grid-template-columns: 4fr 2fr;
+    grid-row:1 / span 4;
+}
+.about-container .about
+{
+    background-color: darkgray;
+    margin-right:10px;
+    line-height: 1.5rem;
+    margin-left:100px;
+    padding:10px 10px;
+}
+.about-container .aside-bar
+{
+    background: darkred;
+    color:#fff;
+    line-height: 1.5rem;
+    margin-bottom:200px;
+    text-align:center;
+    margin-top:10px;
+    margin-right:10px;
+}
+.about-container .about h2
+{
+    padding:10px 0px;
+}
+.about-container .about p
+{
+    line-height: 2rem;
+    font-family: sans-serif;
+}
+.about-container .aside-bar .padding
+{
+    padding:10px 10px;
+    background-color: forestgreen;
+}
+.about-container .aside-bar .padding:hover
+{
+    background-color: fuchsia;
+}
+.about-container .aside-bar h2
+{
+    padding:20px 20px;
+}
+.about-container .about .article
+{
+    width:400px;
+    height:400px;
+}
+.about-container .aside-bar p
+{
+    padding-bottom: 20px;
+}
+.about-container .new
+{
+    background-color: coral;
+    color:#fff;
+    line-height: 1.5rem;
+    margin-bottom:500px;
+    text-align:center;
+    margin-top:10px;
+    margin-right:10px;
+}
+.about-container .new .padding
+{
+    padding:10px 10px;
+    background-color:darkseagreen;
+}
+.about-container .new .padding:hover
+{
+    cursor: pointer;
+    background-color: darkorchid;
+}
+.about-container .new h2
+{
+    padding:20px 20px;
+}
+.about-container .new p
+{
+    padding-bottom: 20px;
+}
+
+
+ 
